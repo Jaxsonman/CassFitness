@@ -1,53 +1,8 @@
-.nav{
-    height: 44px;
-    &__container{
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        &__logo{
-            margin: 0;
-            width: min-content;
-            font-size: 2.8rem;
-            color: pink;
-        }
-    }
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/utilities";
 
-    &__list{
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@import "components/button";
 
-    &__link{
-        color: black;
-        font-size: 1.5rem;
-        transition: all ease .3s;
-
-        &:hover{
-            color: pink;
-        }
-    }
-
-    &__social{
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 15px;
-
-        &__link{
-            color: black;
-            font-size: 2rem;
-            transition: all ease .2s;
-            padding: 5px;
-
-            &:hover{
-                color: pink;
-            }
-        }
-    }
-
-    
-}
+@import "pages/base.scss";
+@import "pages/home.scss";

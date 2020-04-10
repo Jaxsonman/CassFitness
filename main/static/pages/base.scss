@@ -1,0 +1,63 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: black;
+    padding: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav{
+    height: 44px;
+    &__container{
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &__logo{
+            margin: 0;
+            width: min-content;
+            font-size: 2.8rem;
+            color: $color-pink;
+        }
+    }
+
+    &__list{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__link{
+        color: black;
+        font-size: 1.5rem;
+        transition: all ease .3s;
+
+        &:hover{
+            color: $color-pink;
+        }
+    }
+
+    &__social{
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+
+        &__link{
+            color: black;
+            font-size: 2rem;
+            transition: all ease .2s;
+            padding: 5px;
+
+            &:hover{
+                color: $color-pink;
+            }
+        }
+    }
+
+    
+}
