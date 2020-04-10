@@ -1,0 +1,38 @@
+.nav {
+  height: 44px; }
+  .nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .nav__container__logo {
+      margin: 0;
+      width: min-content;
+      font-size: 2.8rem;
+      color: pink; }
+  .nav__list {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .nav__link {
+    color: black;
+    font-size: 1.5rem;
+    transition: all ease .3s; }
+    .nav__link:hover {
+      color: pink; }
+  .nav__social {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px; }
+    .nav__social__link {
+      color: black;
+      font-size: 2rem;
+      transition: all ease .2s;
+      padding: 5px; }
+      .nav__social__link:hover {
+        color: pink; }
+
+/*# sourceMappingURL=main.css.map */
