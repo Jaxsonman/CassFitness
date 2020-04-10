@@ -1,1 +1,1 @@
-web: gunicorn herokuSass.wsgi —-log-file -
+web: gunicorn CassSite.wsgi —-log-file -
